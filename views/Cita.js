@@ -1,18 +1,19 @@
-import React from 'react';
-import { StatusBar, View, StyleSheet, Image, ScrollView } from 'react-native';
-import { Button, Text, Divider } from 'react-native-paper';
-import { Calendar } from 'react-native-calendars';
-import { Picker } from '@react-native-picker/picker';
-import { useState } from 'react';
-
+import React from 'react'
+import { StatusBar, View, StyleSheet, Image, ScrollView } from 'react-native'
+import { Button, Text, Divider } from 'react-native-paper'
+import { Calendar } from 'react-native-calendars'
+import { Picker } from '@react-native-picker/picker'
+import { useState } from 'react'
 
 export default function Cita() {
-  const [selectedSpecialty, setSelectedSpecialty] = useState('Selecciona una especialidad');
-  const daySpacing = 4;
+  const [selectedSpecialty, setSelectedSpecialty] = useState(
+    'Selecciona una especialidad'
+  )
+  const daySpacing = 4
 
-  const handleSpecialtyChange = (itemValue) => {
-    setSelectedSpecialty(itemValue);
-  };
+  const handleSpecialtyChange = itemValue => {
+    setSelectedSpecialty(itemValue)
+  }
 
   return (
     <ScrollView style={styles.container}>
@@ -21,9 +22,12 @@ export default function Cita() {
         <Picker
           selectedValue={selectedSpecialty}
           style={styles.picker}
-          onValueChange={(itemValue) => handleSpecialtyChange(itemValue)}
+          onValueChange={itemValue => handleSpecialtyChange(itemValue)}
         >
-          <Picker.Item label="Selecciona una especialidad" value="Selecciona una especialidad" />
+          <Picker.Item
+            label="Selecciona una especialidad"
+            value="Selecciona una especialidad"
+          />
           <Picker.Item label="Odontología " value="Odontología" />
           <Picker.Item label="Pediatría" value="Pediatría" />
           <Picker.Item label="Psicología " value="Psicología" />
@@ -32,7 +36,10 @@ export default function Cita() {
         </Picker>
       </View>
       <View style={styles.doctorInfo} paddingVertical={10}>
-        <Image source={require('../assets/marco.jpg')} style={styles.doctorImage} />
+        <Image
+          source={require('../assets/marco.jpg')}
+          style={styles.doctorImage}
+        />
         <View style={styles.doctorDetails}>
           <Text style={styles.doctorName}>Marco Nina</Text>
           <Text style={styles.doctorSpecialty}>Pediatra</Text>
@@ -54,48 +61,88 @@ export default function Cita() {
       <Divider style={styles.divider} />
       <View style={styles.timeSlots} paddingTop={18}>
         {/* Aquí puedes colocar los botones con horas disponibles */}
-        <Button mode="contained" style={styles.button} labelStyle={styles.buttonText}>
+        <Button
+          mode="contained"
+          style={styles.button}
+          labelStyle={styles.buttonText}
+        >
           8:00
         </Button>
-        <Button mode="contained" style={styles.button} labelStyle={styles.buttonText}>
+        <Button
+          mode="contained"
+          style={styles.button}
+          labelStyle={styles.buttonText}
+        >
           9:00
         </Button>
-        <Button mode="contained" style={styles.button} labelStyle={styles.buttonText}>
+        <Button
+          mode="contained"
+          style={styles.button}
+          labelStyle={styles.buttonText}
+        >
           10:00
         </Button>
         {/* Agrega más botones de horas disponibles */}
       </View>
       <View style={styles.moreButtonsContainer}>
         {/* Aquí puedes colocar más botones */}
-        <Button mode="contained" style={styles.button} labelStyle={styles.buttonText}>
+        <Button
+          mode="contained"
+          style={styles.button}
+          labelStyle={styles.buttonText}
+        >
           11:00
         </Button>
-        <Button mode="contained" style={styles.button} labelStyle={styles.buttonText}>
+        <Button
+          mode="contained"
+          style={styles.button}
+          labelStyle={styles.buttonText}
+        >
           12:00
         </Button>
-        <Button mode="contained" style={styles.button} labelStyle={styles.buttonText}>
+        <Button
+          mode="contained"
+          style={styles.button}
+          labelStyle={styles.buttonText}
+        >
           13:00
         </Button>
         {/* Agrega más botones */}
       </View>
       <View style={styles.moreButtonsContainer}>
         {/* Aquí puedes colocar más botones */}
-        <Button mode="contained" style={styles.button} labelStyle={styles.buttonText}>
+        <Button
+          mode="contained"
+          style={styles.button}
+          labelStyle={styles.buttonText}
+        >
           14:00
         </Button>
-        <Button mode="contained" style={styles.button} labelStyle={styles.buttonText}>
+        <Button
+          mode="contained"
+          style={styles.button}
+          labelStyle={styles.buttonText}
+        >
           15:00
         </Button>
-        <Button mode="contained" style={styles.button} labelStyle={styles.buttonText}>
+        <Button
+          mode="contained"
+          style={styles.button}
+          labelStyle={styles.buttonText}
+        >
           16:00
         </Button>
         {/* Agrega más botones */}
       </View>
-      <Button  style={styles.registerButton} mode="contained" labelStyle={styles.buttonText2}>
+      <Button
+        style={styles.registerButton}
+        mode="contained"
+        labelStyle={styles.buttonText2}
+      >
         Registrar Cita
       </Button>
     </ScrollView>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -150,12 +197,10 @@ const styles = StyleSheet.create({
     marginVertical: 5,
   },
   button: {
-    borderWidth:2,
-    color:'#246BFD',
+    borderWidth: 2,
+    color: '#246BFD',
     borderColor: '#246BFD',
-    backgroundColor:'#fff'
-    
-    
+    backgroundColor: '#fff',
   },
   buttonText: {
     fontSize: 14,
@@ -184,4 +229,4 @@ const styles = StyleSheet.create({
     marginBottom: 50,
     backgroundColor: '#246BFD',
   },
-});
+})

@@ -1,35 +1,50 @@
-import React from 'react';
-import { View, StyleSheet, Text, TouchableOpacity, Image } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import React from 'react'
+import {
+  View,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  Image,
+  ScrollView,
+} from 'react-native'
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
+import { supabase } from '../lib/supabase'
 
 const Perfil = () => {
   return (
-    <View style={styles.container}>
-      <View style={styles.header}>
-        <Image
-          source={require('../assets/mariela.png')}
-          style={styles.avatar}
-        />
-        <Text style={styles.name}>Mariela Nina</Text>
-        <Text style={styles.phoneNumber}>Teléfono: +51 952286963</Text>
+    <ScrollView>
+      <View style={styles.container}>
+        <View style={styles.header}>
+          <Image
+            source={require('../assets/mariela.png')}
+            style={styles.avatar}
+          />
+          <Text style={styles.name}>Mariela Nina</Text>
+          <Text style={styles.phoneNumber}>Teléfono: +51 952286963</Text>
+        </View>
+        <View style={styles.menuContainer}>
+          <MenuItem icon="account-edit" title="Editar perfil" />
+          <MenuItem icon="bell" title="Notificaciones" />
+          <MenuItem icon="lock" title="Seguridad" />
+          <MenuItem icon="earth" title="Idioma" />
+          <MenuItem icon="weather-night" title="Modo oscuro" />
+          <MenuItem icon="help-circle" title="Centro de ayuda" />
+          <MenuItem icon="account-multiple-plus" title="Invitar amigos" />
+          <MenuItem
+            icon="logout"
+            title="Cerrar sesión"
+            showArrow={false}
+            onPress={() => supabase.auth.signOut()}
+          />
+        </View>
       </View>
-      <View style={styles.menuContainer}>
-        <MenuItem icon="account-edit" title="Editar perfil" />
-        <MenuItem icon="bell" title="Notificaciones" />
-        <MenuItem icon="lock" title="Seguridad" />
-        <MenuItem icon="earth" title="Idioma" />
-        <MenuItem icon="weather-night" title="Modo oscuro" />
-        <MenuItem icon="help-circle" title="Centro de ayuda" />
-        <MenuItem icon="account-multiple-plus" title="Invitar amigos" />
-        <MenuItem icon="logout" title="Cerrar sesión" showArrow={false} />
-      </View>
-    </View>
-  );
-};
+    </ScrollView>
+  )
+}
 
-const MenuItem = ({ icon, title, showArrow = true }) => {
+const MenuItem = ({ icon, title, showArrow = true, onPress = () => {} }) => {
   return (
-    <TouchableOpacity style={styles.menuItem}>
+    <TouchableOpacity style={styles.menuItem} onPress={onPress}>
       <View style={styles.menuItemIcon}>
         <Icon name={icon} size={30} color="#666666" />
       </View>
@@ -40,8 +55,8 @@ const MenuItem = ({ icon, title, showArrow = true }) => {
         </TouchableOpacity>
       )}
     </TouchableOpacity>
-  );
-};
+  )
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -90,6 +105,6 @@ const styles = StyleSheet.create({
   arrowButton: {
     marginLeft: 'auto',
   },
-});
+})
 
-export default Perfil;
+export default Perfil
