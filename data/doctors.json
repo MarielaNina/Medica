@@ -1,0 +1,565 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. John Ramirez",
+        "specialty": "Cardiologo",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 42,
+        "gender": "Masculino",
+        "email": "john.ramirez@example.com",
+        "phone": "+1 123-456-7890",
+        "address": "123 Main Street, Cityville",
+        "languages": [
+            "Inglés",
+            "Español"
+        ],
+        "education": "Doctor en Medicina, Universidad ABC",
+        "experience": "Más de 15 años de experiencia en cardiología",
+        "certifications": [
+            "Cardiólogo Certificado (CCC)",
+            "Especialista en Ecocardiografía"
+        ],
+        "affiliations": [
+            "Asociación Cardiológica Internacional",
+            "Colegio Médico Local"
+        ],
+        "workingHours": "Lunes a Viernes: 8:00 AM - 5:00 PM",
+        "about": "El Dr. John Ramirez es un reconocido cardiólogo con amplia experiencia en el diagnóstico y tratamiento de enfermedades cardiovasculares.",
+        "socialMedia": {
+            "twitter": "https://twitter.com/DrJohnRamirez",
+            "linkedin": "https://www.linkedin.com/in/drjohnramirez",
+            "website": "https://www.drjohnramirez.com"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Dr. Marco Nina",
+        "specialty": "Pediatra",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 35,
+        "gender": "Masculino",
+        "email": "marco.nina@example.com",
+        "phone": "+1 987-654-3210",
+        "address": "456 Elm Street, Townville",
+        "languages": [
+            "Inglés",
+            "Italiano",
+            "Portugués"
+        ],
+        "education": "Doctor en Medicina, Universidad XYZ",
+        "experience": "Especialización en pediatría, Hospital Infantil ABC",
+        "certifications": [
+            "Pediatra Certificado (CPC)",
+            "Especialista en Neonatología"
+        ],
+        "affiliations": [
+            "Academia Americana de Pediatría",
+            "Asociación de Pediatras Local"
+        ],
+        "workingHours": "Lunes a Sábado: 9:00 AM - 6:00 PM",
+        "about": "El Dr. Marco Nina es un pediatra apasionado por brindar atención médica de calidad a niños y adolescentes.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/DrMarcoNina",
+            "instagram": "https://www.instagram.com/drmarconina"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Dr. Peter Parker",
+        "specialty": "Nutricionista",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 38,
+        "gender": "Masculino",
+        "email": "peter.parker@example.com",
+        "phone": "+1 555-123-4567",
+        "address": "789 Oak Avenue, Villageville",
+        "languages": [
+            "Inglés",
+            "Francés"
+        ],
+        "education": "Licenciado en Nutrición, Universidad XYZ",
+        "experience": "Más de 10 años de experiencia en nutrición",
+        "certifications": [
+            "Nutricionista Certificado (NC)",
+            "Especialista en Dietética"
+        ],
+        "affiliations": [
+            "Asociación de Nutricionistas Profesionales",
+            "Sociedad Internacional de Nutrición"
+        ],
+        "workingHours": "Martes a Sábado: 9:00 AM - 4:00 PM",
+        "about": "El Dr. Peter Parker se dedica a mejorar la salud y el bienestar de sus pacientes a través de la alimentación adecuada.",
+        "socialMedia": {
+            "linkedin": "https://www.linkedin.com/in/drpeterparker",
+            "website": "https://www.nutricionistasite.com"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Dr. Diego Montenegro",
+        "specialty": "Psicologo",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 40,
+        "gender": "Masculino",
+        "email": "diego.montenegro@example.com",
+        "phone": "+1 999-876-5432",
+        "address": "456 Pine Street, Suburbia",
+        "languages": [
+            "Español",
+            "Inglés"
+        ],
+        "education": "Licenciado en Psicología, Universidad ABC",
+        "experience": "Especialización en Psicoterapia Cognitivo-Conductual",
+        "certifications": [
+            "Psicólogo Certificado (PC)",
+            "Miembro de la Asociación de Psicólogos Locales"
+        ],
+        "affiliations": [],
+        "workingHours": "Lunes a Viernes: 10:00 AM - 7:00 PM",
+        "about": "El Dr. Diego Montenegro brinda apoyo y orientación a sus pacientes para superar desafíos emocionales y mejorar su bienestar mental.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/DrDiegoMontenegro",
+            "instagram": "https://www.instagram.com/drdiegomontenegro"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Dr. Ana Lopez",
+        "specialty": "Dermatóloga",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 37,
+        "gender": "Femenino",
+        "email": "ana.lopez@example.com",
+        "phone": "+1 444-567-8901",
+        "address": "789 Maple Street, Citytown",
+        "languages": [
+            "Español",
+            "Inglés"
+        ],
+        "education": "Doctora en Dermatología, Universidad XYZ",
+        "experience": "Especialización en Dermatología Cosmética y Clínica",
+        "certifications": [
+            "Dermatóloga Certificada (DC)",
+            "Miembro de la Sociedad de Dermatología"
+        ],
+        "affiliations": [],
+        "workingHours": "Martes a Viernes: 9:00 AM - 6:00 PM",
+        "about": "La Dra. Ana Lopez ofrece tratamientos dermatológicos avanzados para mejorar la salud y apariencia de la piel.",
+        "socialMedia": {
+            "linkedin": "https://www.linkedin.com/in/draanalopez",
+            "website": "https://www.draanalopez.com"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Dr. Maria Garcia",
+        "specialty": "Ginecóloga",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 39,
+        "gender": "Femenino",
+        "email": "maria.garcia@example.com",
+        "phone": "+1 777-234-5678",
+        "address": "123 Oak Street, Villagetown",
+        "languages": [
+            "Español"
+        ],
+        "education": "Doctora en Medicina, Universidad ABC",
+        "experience": "Especialización en Ginecología y Obstetricia",
+        "certifications": [
+            "Ginecóloga Certificada (GC)",
+            "Miembro de la Sociedad de Ginecólogos"
+        ],
+        "affiliations": [],
+        "workingHours": "Lunes a Jueves: 10:00 AM - 5:00 PM",
+        "about": "La Dra. Maria Garcia se dedica a la salud y el bienestar de sus pacientes mujeres en todas las etapas de la vida.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/DraMariaGarcia",
+            "instagram": "https://www.instagram.com/dramariagarcia"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Dr. Michael Johnson",
+        "specialty": "Oftalmólogo",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 45,
+        "gender": "Masculino",
+        "email": "michael.johnson@example.com",
+        "phone": "+1 111-222-3333",
+        "address": "567 Cedar Avenue, Suburbville",
+        "languages": [
+            "Inglés"
+        ],
+        "education": "Doctor en Medicina, Universidad XYZ",
+        "experience": "Especialización en Oftalmología",
+        "certifications": [
+            "Oftalmólogo Certificado (OC)",
+            "Miembro de la Sociedad de Oftalmología"
+        ],
+        "affiliations": [],
+        "workingHours": "Lunes a Viernes: 9:00 AM - 6:00 PM",
+        "about": "El Dr. Michael Johnson ofrece servicios oftalmológicos completos y tratamientos avanzados para mejorar la salud ocular.",
+        "socialMedia": {
+            "linkedin": "https://www.linkedin.com/in/drmichaeljohnson",
+            "website": "https://www.drmichaeljohnson.com"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Dr. Laura Martinez",
+        "specialty": "Oncóloga",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 41,
+        "gender": "Femenino",
+        "email": "laura.martinez@example.com",
+        "phone": "+1 999-888-7777",
+        "address": "789 Elm Street, Townville",
+        "languages": [
+            "Español",
+            "Inglés"
+        ],
+        "education": "Doctora en Medicina, Universidad ABC",
+        "experience": "Especialización en Oncología",
+        "certifications": [
+            "Oncóloga Certificada (OC)",
+            "Miembro de la Sociedad Oncológica"
+        ],
+        "affiliations": [],
+        "workingHours": "Martes a Viernes: 8:00 AM - 5:00 PM",
+        "about": "La Dra. Laura Martinez se dedica a brindar atención integral y apoyo a pacientes con enfermedades oncológicas.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/DraLauraMartinez",
+            "instagram": "https://www.instagram.com/dralauramartinez"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Dr. William Adams",
+        "specialty": "Cirujano",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 47,
+        "gender": "Masculino",
+        "email": "william.adams@example.com",
+        "phone": "+1 888-777-6666",
+        "address": "234 Oak Avenue, Citytown",
+        "languages": [
+            "Inglés"
+        ],
+        "education": "Doctor en Medicina, Universidad XYZ",
+        "experience": "Especialización en Cirugía General",
+        "certifications": [
+            "Cirujano Certificado (CC)",
+            "Miembro de la Sociedad de Cirugía"
+        ],
+        "affiliations": [],
+        "workingHours": "Lunes a Jueves: 9:00 AM - 7:00 PM",
+        "about": "El Dr. William Adams ofrece servicios quirúrgicos avanzados y atención compasiva a sus pacientes.",
+        "socialMedia": {
+            "linkedin": "https://www.linkedin.com/in/drwilliamadams",
+            "website": "https://www.drwilliamadams.com"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Dr. Sofia Hernandez",
+        "specialty": "Endocrinóloga",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 36,
+        "gender": "Femenino",
+        "email": "sofia.hernandez@example.com",
+        "phone": "+1 777-888-9999",
+        "address": "567 Maple Street, Suburbia",
+        "languages": [
+            "Español",
+            "Inglés"
+        ],
+        "education": "Doctora en Medicina, Universidad ABC",
+        "experience": "Especialización en Endocrinología",
+        "certifications": [
+            "Endocrinóloga Certificada (EC)",
+            "Miembro de la Sociedad Endocrinológica"
+        ],
+        "affiliations": [],
+        "workingHours": "Lunes a Viernes: 8:00 AM - 5:00 PM",
+        "about": "La Dra. Sofia Hernandez se enfoca en el diagnóstico y tratamiento de trastornos hormonales y metabólicos.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/DraSofiaHernandez",
+            "instagram": "https://www.instagram.com/drasofiahernandez"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Dr. Daniel Smith",
+        "specialty": "Neurólogo",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 39,
+        "gender": "Masculino",
+        "email": "daniel.smith@example.com",
+        "phone": "+1 234-567-8901",
+        "address": "789 Pine Street, Cityville",
+        "languages": [
+            "Inglés"
+        ],
+        "education": "Doctor en Medicina, Universidad XYZ",
+        "experience": "Especialización en Neurología",
+        "certifications": [
+            "Neurólogo Certificado (NC)",
+            "Miembro de la Sociedad de Neurología"
+        ],
+        "affiliations": [],
+        "workingHours": "Martes a Viernes: 9:00 AM - 6:00 PM",
+        "about": "El Dr. Daniel Smith se dedica al diagnóstico y tratamiento de trastornos neurológicos para mejorar la calidad de vida de sus pacientes.",
+        "socialMedia": {
+            "linkedin": "https://www.linkedin.com/in/drdanielsmith",
+            "website": "https://www.drdanielsmith.com"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Dr. Olivia White",
+        "specialty": "Reumatóloga",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 43,
+        "gender": "Femenino",
+        "email": "olivia.white@example.com",
+        "phone": "+1 555-678-9012",
+        "address": "234 Cedar Avenue, Townville",
+        "languages": [
+            "Español",
+            "Inglés"
+        ],
+        "education": "Doctora en Medicina, Universidad ABC",
+        "experience": "Especialización en Reumatología",
+        "certifications": [
+            "Reumatóloga Certificada (RC)",
+            "Miembro de la Sociedad de Reumatología"
+        ],
+        "affiliations": [],
+        "workingHours": "Lunes a Jueves: 8:00 AM - 5:00 PM",
+        "about": "La Dra. Olivia White se dedica al diagnóstico y tratamiento de enfermedades reumáticas e inflamatorias.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/DraOliviaWhite",
+            "instagram": "https://www.instagram.com/draoliviawhite"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Dr. Miguel Garcia",
+        "specialty": "Urología",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 44,
+        "gender": "Masculino",
+        "email": "miguel.garcia@example.com",
+        "phone": "+1 999-000-1111",
+        "address": "567 Oak Street, Citytown",
+        "languages": [
+            "Español"
+        ],
+        "education": "Doctor en Medicina, Universidad XYZ",
+        "experience": "Especialización en Urología",
+        "certifications": [
+            "Urologo Certificado (UC)",
+            "Miembro de la Sociedad de Urología"
+        ],
+        "affiliations": [],
+        "workingHours": "Martes a Sábado: 10:00 AM - 4:00 PM",
+        "about": "El Dr. Miguel Garcia se especializa en el diagnóstico y tratamiento de trastornos urológicos para mejorar la salud de sus pacientes.",
+        "socialMedia": {
+            "linkedin": "https://www.linkedin.com/in/drmiguelgarcia",
+            "website": "https://www.drmiguelgarcia.com"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Dr. Julia Martinez",
+        "specialty": "Psiquiatra",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 38,
+        "gender": "Femenino",
+        "email": "julia.martinez@example.com",
+        "phone": "+1 777-234-5678",
+        "address": "789 Elm Avenue, Suburbia",
+        "languages": [
+            "Español",
+            "Inglés"
+        ],
+        "education": "Doctora en Medicina, Universidad ABC",
+        "experience": "Especialización en Psiquiatría",
+        "certifications": [
+            "Psiquiatra Certificada (PC)",
+            "Miembro de la Sociedad de Psiquiatría"
+        ],
+        "affiliations": [],
+        "workingHours": "Miércoles a Sábado: 10:00 AM - 6:00 PM",
+        "about": "La Dra. Julia Martinez brinda apoyo y tratamiento a personas con trastornos mentales para mejorar su bienestar emocional.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/DraJuliaMartinez",
+            "instagram": "https://www.instagram.com/drajuliamartinez"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Dr. Carlos Ramirez",
+        "specialty": "Traumatólogo",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 41,
+        "gender": "Masculino",
+        "email": "carlos.ramirez@example.com",
+        "phone": "+1 111-222-3333",
+        "address": "234 Pine Street, Citytown",
+        "languages": [
+            "Español"
+        ],
+        "education": "Doctor en Medicina, Universidad XYZ",
+        "experience": "Especialización en Traumatología",
+        "certifications": [
+            "Traumatólogo Certificado (TC)",
+            "Miembro de la Sociedad de Traumatología"
+        ],
+        "affiliations": [],
+        "workingHours": "Lunes a Jueves: 9:00 AM - 5:00 PM",
+        "about": "El Dr. Carlos Ramirez se dedica al diagnóstico y tratamiento de lesiones y enfermedades musculoesqueléticas.",
+        "socialMedia": {
+            "linkedin": "https://www.linkedin.com/in/drcarlosramirez",
+            "website": "https://www.drcarlosramirez.com"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Dr. Patricia Smith",
+        "specialty": "Infectóloga",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 39,
+        "gender": "Femenino",
+        "email": "patricia.smith@example.com",
+        "phone": "+1 444-567-8901",
+        "address": "789 Oak Street, Villagetown",
+        "languages": [
+            "Inglés",
+            "Español"
+        ],
+        "education": "Doctora en Medicina, Universidad ABC",
+        "experience": "Especialización en Enfermedades Infecciosas",
+        "certifications": [
+            "Infectóloga Certificada (IC)",
+            "Miembro de la Sociedad de Enfermedades Infecciosas"
+        ],
+        "affiliations": [],
+        "workingHours": "Martes a Viernes: 8:00 AM - 5:00 PM",
+        "about": "La Dra. Patricia Smith se dedica al diagnóstico y tratamiento de enfermedades infecciosas para proteger la salud pública.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/DraPatriciaSmith",
+            "instagram": "https://www.instagram.com/drapatriciasmith"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Dr. Antonio Lopez",
+        "specialty": "Hematólogo",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 46,
+        "gender": "Masculino",
+        "email": "antonio.lopez@example.com",
+        "phone": "+1 777-888-9999",
+        "address": "234 Cedar Avenue, Citytown",
+        "languages": [
+            "Español"
+        ],
+        "education": "Doctor en Medicina, Universidad XYZ",
+        "experience": "Especialización en Hematología",
+        "certifications": [
+            "Hematólogo Certificado (HC)",
+            "Miembro de la Sociedad de Hematología"
+        ],
+        "affiliations": [],
+        "workingHours": "Miércoles a Sábado: 9:00 AM - 5:00 PM",
+        "about": "El Dr. Antonio Lopez se dedica al diagnóstico y tratamiento de trastornos de la sangre para mejorar la salud de sus pacientes.",
+        "socialMedia": {
+            "linkedin": "https://www.linkedin.com/in/drantoniolopez",
+            "website": "https://www.drantoniolopez.com"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Dr. Laura Hernandez",
+        "specialty": "Radióloga",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 40,
+        "gender": "Femenino",
+        "email": "laura.hernandez@example.com",
+        "phone": "+1 111-000-1111",
+        "address": "567 Elm Street, Townville",
+        "languages": [
+            "Inglés",
+            "Español"
+        ],
+        "education": "Doctora en Medicina, Universidad ABC",
+        "experience": "Especialización en Radiología",
+        "certifications": [
+            "Radióloga Certificada (RC)",
+            "Miembro de la Sociedad de Radiología"
+        ],
+        "affiliations": [],
+        "workingHours": "Lunes a Viernes: 8:00 AM - 5:00 PM",
+        "about": "La Dra. Laura Hernandez utiliza tecnología avanzada para el diagnóstico y tratamiento de enfermedades mediante imágenes médicas.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/DraLauraHernandez",
+            "instagram": "https://www.instagram.com/dralaurahernandez"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Dr. Juan Garcia",
+        "specialty": "Gastroenterólogo",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 43,
+        "gender": "Masculino",
+        "email": "juan.garcia@example.com",
+        "phone": "+1 555-678-9012",
+        "address": "789 Pine Avenue, Suburbia",
+        "languages": [
+            "Español"
+        ],
+        "education": "Doctor en Medicina, Universidad XYZ",
+        "experience": "Especialización en Gastroenterología",
+        "certifications": [
+            "Gastroenterólogo Certificado (GC)",
+            "Miembro de la Sociedad de Gastroenterología"
+        ],
+        "affiliations": [],
+        "workingHours": "Martes a Viernes: 10:00 AM - 6:00 PM",
+        "about": "El Dr. Juan Garcia se dedica al diagnóstico y tratamiento de trastornos gastrointestinales para mejorar la salud digestiva de sus pacientes.",
+        "socialMedia": {
+            "linkedin": "https://www.linkedin.com/in/drjuangarcia",
+            "website": "https://www.drjuangarcia.com"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Dr. Maria Rodriguez",
+        "specialty": "Otorrinolaringóloga",
+        "image": "https://static.vecteezy.com/system/resources/previews/005/520/145/original/cartoon-drawing-of-a-doctor-vector.jpg",
+        "age": 42,
+        "gender": "Femenino",
+        "email": "maria.rodriguez@example.com",
+        "phone": "+1 999-888-7777",
+        "address": "234 Oak Street, Citytown",
+        "languages": [
+            "Español",
+            "Inglés"
+        ],
+        "education": "Doctora en Medicina, Universidad ABC",
+        "experience": "Especialización en Otorrinolaringología",
+        "certifications": [
+            "Otorrinolaringóloga Certificada (OC)",
+            "Miembro de la Sociedad de Otorrinolaringología"
+        ],
+        "affiliations": [],
+        "workingHours": "Lunes a Jueves: 9:00 AM - 6:00 PM",
+        "about": "La Dra. Maria Rodriguez se dedica al diagnóstico y tratamiento de trastornos del oído, nariz y garganta.",
+        "socialMedia": {
+            "facebook": "https://www.facebook.com/DraMariaRodriguez",
+            "instagram": "https://www.instagram.com/dramariarodriguez"
+        }
+    }
+]

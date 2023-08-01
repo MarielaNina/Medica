@@ -1,93 +1,108 @@
-import { StatusBar, ActivityIndicator, Image, TextInput } from 'react-native';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
-import { Ionicons } from '@expo/vector-icons';
-
+import { StatusBar, ActivityIndicator, Image, TextInput } from 'react-native'
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
+import Icon from 'react-native-vector-icons/FontAwesome'
+import { Ionicons } from '@expo/vector-icons'
+import { ScrollView } from 'react-native'
+import { useFonts, Inter_500Medium } from '@expo-google-fonts/inter'
 export default function Home() {
+  const [inter] = useFonts({ Inter_500Medium })
+
   return (
-    <View style={styles.container}>
-      <View style={styles.header}>
-        <View style={styles.userInfo}>
-          <Image source={require('../assets/mariela.png')} style={styles.userImage} />
-          <View style={styles.userInfoText}>
-            <Text style={styles.greeting}>Buen día</Text>
-            <Text style={styles.userName}>Mariela Nina</Text>
+    <ScrollView>
+      <View style={styles.container}>
+        <View style={styles.header}>
+          <View style={styles.userInfo}>
+            <Image
+              source={require('../assets/mariela.png')}
+              style={styles.userImage}
+            />
+            <View style={styles.userInfoText}>
+              <Text style={styles.greeting}>Buen día</Text>
+              <Text style={styles.userName}>Mariela Nina</Text>
+            </View>
+            <TouchableOpacity style={styles.notificationIcon}>
+              <Icon name="bell" size={25} color="#DCDCDC" />
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.heartIcon}>
+              <Icon name="heart" size={25} color="#DCDCDC" />
+            </TouchableOpacity>
           </View>
-          <TouchableOpacity style={styles.notificationIcon}>
-            <Icon name="bell" size={25} color="#DCDCDC" />
+        </View>
+        <View style={styles.searchBar}>
+          <Icon
+            name="search"
+            size={20}
+            color="#000"
+            style={styles.searchIcon}
+          />
+          <TextInput
+            placeholder="Buscar"
+            style={styles.searchText}
+            editable={false}
+            pointerEvents="none"
+          />
+        </View>
+        <Image
+          source={require('../assets/doctores.jpg')}
+          style={styles.doctorsImage}
+        />
+        <Text style={styles.sectionTitle}>Especialidades Médicas</Text>
+        <View style={styles.specialties}>
+          <TouchableOpacity style={styles.specialtyButton}>
+            <Icon name="dental" size={22} color="#246BFD" />
+            <Text style={styles.specialtyLabel}>Odontología</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.heartIcon}>
-            <Icon name="heart" size={25} color="#DCDCDC" />
+          <TouchableOpacity style={styles.specialtyButton}>
+            <Icon name="apple" size={22} color="#246BFD" />
+            <Text style={styles.specialtyLabel}>Nutrición</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.specialtyButton}>
+            <Icon name="heart" size={22} color="#246BFD" />
+            <Text style={styles.specialtyLabel}>Triaje</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.specialtyButton}>
+            <Icon name="child" size={22} color="#246BFD" />
+            <Text style={styles.specialtyLabel}>Pediatría</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.specialtyButton}>
+            <Icon name="stethoscope" size={22} color="#246BFD" />
+            <Text style={styles.specialtyLabel}>General</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.specialtyButton}>
+            <Icon name="medkit" size={22} color="#246BFD" />
+            <Text style={styles.specialtyLabel}>Obstetricia</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.specialtyButton}>
+            <Icon name="user-md" size={22} color="#246BFD" />
+            <Text style={styles.specialtyLabel}>Cirugía</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.specialtyButton}>
+            <Icon name="user-md" size={22} color="#246BFD" />
+            <Text style={styles.specialtyLabel}>Psicología</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.specialtyButton}>
+            <Icon name="heartbeat" size={22} color="#246BFD" />
+            <Text style={styles.specialtyLabel}>Cardiología</Text>
+          </TouchableOpacity>
+        </View>
+        <Text style={styles.sectionTitle}>Top Doctors</Text>
+        <View style={styles.buttonsContainer}>
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>Top Doctors</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>All</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>General</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>Dentista</Text>
           </TouchableOpacity>
         </View>
       </View>
-      <View style={styles.searchBar}>
-        <Icon name="search" size={20} color="#000" style={styles.searchIcon} />
-        <TextInput
-          placeholder="Buscar"
-          style={styles.searchText}
-          editable={false}
-          pointerEvents="none"
-        />
-      </View>
-      <Image source={require('../assets/doctores.jpg')} style={styles.doctorsImage} />
-      <Text style={styles.sectionTitle}>Especialidades Médicas</Text>
-      <View style={styles.specialties}>
-        <TouchableOpacity style={styles.specialtyButton}>
-          <Icon name="dental" size={22} color="#246BFD" />
-          <Text style={styles.specialtyLabel}>Odontología</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.specialtyButton}>
-          <Icon name="apple" size={22} color="#246BFD" />
-          <Text style={styles.specialtyLabel}>Nutrición</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.specialtyButton}>
-          <Icon name="heart" size={22} color="#246BFD" />
-          <Text style={styles.specialtyLabel}>Triaje</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.specialtyButton}>
-          <Icon name="child" size={22} color="#246BFD" />
-          <Text style={styles.specialtyLabel}>Pediatría</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.specialtyButton}>
-          <Icon name="stethoscope" size={22} color="#246BFD" />
-          <Text style={styles.specialtyLabel}>General</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.specialtyButton}>
-          <Icon name="medkit" size={22} color="#246BFD" />
-          <Text style={styles.specialtyLabel}>Obstetricia</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.specialtyButton}>
-          <Icon name="user-md" size={22} color="#246BFD" />
-          <Text style={styles.specialtyLabel}>Cirugía</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.specialtyButton}>
-          <Icon name="user-md" size={22} color="#246BFD" />
-          <Text style={styles.specialtyLabel}>Psicología</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.specialtyButton}>
-          <Icon name="heartbeat" size={22} color="#246BFD" />
-          <Text style={styles.specialtyLabel}>Cardiología</Text>
-        </TouchableOpacity>
-        {/* Agrega más botones de especialidades aquí */}
-      </View>
-      <Text style={styles.sectionTitle}>Top Doctors</Text>
-      <View style={styles.buttonsContainer}>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Top Doctors</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>All</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>General</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Dentista</Text>
-        </TouchableOpacity>
-      </View>
-    </View>
-  );
+    </ScrollView>
+  )
 }
 
 const styles = StyleSheet.create({
@@ -161,14 +176,11 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     justifyContent: 'space-between',
     marginTop: 10,
-    
   },
   specialtyButton: {
     width: '30%',
     marginBottom: 20,
     alignItems: 'center',
-    
-    
   },
   specialtyLabel: {
     marginTop: 2,
@@ -185,15 +197,13 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
     paddingHorizontal: 15,
     borderRadius: 15,
-    backgroundColor:'#fff',
-    borderWidth:2,
-    borderColor:'#246BFD',
-
-
+    backgroundColor: '#fff',
+    borderWidth: 2,
+    borderColor: '#246BFD',
   },
   buttonText: {
     fontSize: 16,
     fontWeight: 'bold',
     color: '#246BFD',
   },
-});
+})
